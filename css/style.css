@@ -1,0 +1,57 @@
+* {
+    font-family: 'Marvel', sans-serif;
+}
+
+body {
+    background-image: url(../assets/arkaplan.png);
+}
+
+button {
+    background-image: url(../assets/kapak.png);
+    background-color: white;
+    background-size: 120px 140px;
+    border: none;
+    width: 120px;
+    height: 140px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container {
+    margin-left: 22%;
+}
+
+.golge {
+    width: 70.9%;
+    padding: 2px 0px 0px 7px;
+    box-shadow: -3px 23px 53px 0px rgba(0, 0, 0, 0.44);
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 23%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.ortala {
+    margin-left: 22%;
+}
+
+.yenidenbaslat {
+    width: 18px;
+    height: 18px;
+    margin-bottom: -2px;
+}
+
+.donus {
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    position: relative;
+}
